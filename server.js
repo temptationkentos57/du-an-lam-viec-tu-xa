@@ -9,7 +9,7 @@ app.use(express.json());
 
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('Kết nối đến MongoDB thành công'))
-  .catch(err => console.error('Kết nối đến MongoDB thất bại', err));
+  .catch(err => console.error('Kết nối đến MongoDB thất bại:', err.message));
 
 app.listen(PORT, () => {
   console.log(`Máy chủ đang chạy trên http://localhost:${PORT}`);
