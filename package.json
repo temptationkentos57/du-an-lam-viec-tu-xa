@@ -1,6 +1,6 @@
 {
   "name": "du-an-lam-viec-tu-xa",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Dự án connect nhà tuyển dụng với người lao động làm việc từ xa",
   "main": "server.js",
   "scripts": {
