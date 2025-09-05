@@ -1,0 +1,16 @@
+{
+  "name": "du-an-lam-viec-tu-xa",
+  "version": "1.0.0",
+  "description": "Dự án connect nhà tuyển dụng với người lao động làm việc từ xa",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "nodemon": "^2.0.6"
+  },
+  "license": "MIT"
+}
